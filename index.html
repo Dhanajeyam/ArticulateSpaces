@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0D2D37" />
+  <meta name="description" content="Articulate Spaces – Interior Design Studio. Modern, architectural, refined and calm interior design, planning, and execution." />
+  <title>Articulate Spaces – Interior Design Studio</title>
+
+  <!-- OpenGraph Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Articulate Spaces – Interior Design Studio" />
+  <meta property="og:description" content="We shape considered spaces through design thinking, architectural precision, and structural integrity." />
+  <meta property="og:image" content="assets/og-image.png" />
+
+  <!-- Favicons and Web App Icons -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Google Fonts Fallbacks (Ovane -> Bodoni Moda / Playfair; Gotham -> Montserrat) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Montserrat:ital,wght@0,300..700;1,300..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrap nav">
+      <a class="brand" href="#home" aria-label="Articulate Spaces – Interior Design Studio">
+        <img class="brand-logo" src="assets/logo-full-lockup-teal.png" alt="Articulate Spaces – Interior Design Studio">
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+        <a href="#projects">Projects</a><a href="#process">Process</a><a href="#contact">Contact</a>
+        <a class="btn" href="#enquiry">Start a Project ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-bg" src="assets/hero-bg.jpg" alt="Articulate Spaces contemporary architecture courtyard perspective">
+      <div class="wrap hero-inner">
+        <div>
+          <div class="hero-brand-mark">
+            <img src="assets/logo-mark-sand.svg" alt="Articulate Spaces Mark" width="56" height="22">
+          </div>
+          <div class="eyebrow">Articulate Spaces · Interior Design Studio</div>
+          <h1>Spaces,<br>thoughtfully<br>designed.</h1>
+          <p class="lead">Architecture · Interior Design · Civil Engineering Practices</p>
+          <p class="lead">We shape considered spaces through design thinking, architectural precision, and structural integrity.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">View Our Projects ↗</a>
+            <a class="btn btn-outline" href="#services">Explore Services</a>
+          </div>
+          <div class="hero-tags">CREATIVITY &nbsp; / &nbsp; STRUCTURE &nbsp; / &nbsp; PRECISION</div>
+        </div>
+
+        <aside class="enquiry-card" id="enquiry">
+          <div class="eyebrow">Project Enquiry</div>
+          <h2>Let’s build your space.</h2>
+          <p>Tell us a little about your project. We’ll get back to you to discuss the next steps.</p>
+          <form class="form-grid enquiry-form" data-form-name="homepage">
+            <div class="field"><label for="heroName">Full name *</label><input id="heroName" name="name" autocomplete="name" required placeholder="Your name"></div>
+            <div class="field"><label for="heroPhone">Phone / WhatsApp *</label><input id="heroPhone" name="phone" autocomplete="tel" required placeholder="+91 ..." inputmode="tel"></div>
+            <div class="field"><label for="heroEmail">Email *</label><input id="heroEmail" name="email" type="email" autocomplete="email" required placeholder="you@example.com"></div>
+            <div class="field"><label for="heroType">Project type *</label><select id="heroType" name="projectType" required><option value="">Select project type</option><option>Residential interior</option><option>Commercial interior</option><option>Architecture / planning</option><option>3D visualization</option><option>Working drawings</option><option>Interior execution</option><option>Other</option></select></div>
+            <div class="field"><label for="heroLocation">Project location</label><input id="heroLocation" name="location" placeholder="City / area"></div>
+            <div class="field"><label for="heroMessage">Tell us about your project *</label><textarea id="heroMessage" name="message" required placeholder="Area, requirements, timeline, budget (if known)..."></textarea></div>
+            <button class="btn" type="submit">Send Enquiry ↗</button>
+            <div class="form-status" role="alert" aria-live="polite"></div>
+            <p class="form-note">We will review your project details and get back to you shortly.</p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">What We Do</div><h2>End-to-end design<br>and execution solutions.</h2></div>
+          <p class="services-intro">From the first concept to the final detail, we connect creativity with technical clarity and practical project delivery.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service"><div class="service-number">01 / DESIGN</div><h3>Interior Design</h3><p>Concepts, space planning, materials, finishes and furniture design.</p></article>
+          <article class="service"><div class="service-number">02 / PLANNING</div><h3>Architectural Support</h3><p>Spatial development, planning support and design documentation.</p></article>
+          <article class="service"><div class="service-number">03 / VISUALIZE</div><h3>3D Visualization</h3><p>3D modelling, material studies, lighting and realistic renders.</p></article>
+          <article class="service"><div class="service-number">04 / DETAIL</div><h3>Working Drawings</h3><p>Furniture details, elevations, ceiling, flooring and service layouts.</p></article>
+          <article class="service"><div class="service-number">05 / DELIVER</div><h3>Interior Execution</h3><p>BOQ, procurement support, site coordination and quality checks.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="eyebrow">Selected Work</div><h2>Projects with purpose.</h2></div>
+          <a class="text-link" href="#contact">Discuss a similar project ↗</a>
+        </div>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-image"><img loading="lazy" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80" alt="Contemporary residential living room"></div><div class="project-meta"><div><h3>Private Residence</h3><p>Thoughtful residential space planning and custom joinery.</p></div><div class="project-type">RESIDENTIAL<br>INTERIORS</div></div></article>
+          <article class="project-card"><div class="project-image"><img loading="lazy" src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=900&q=80" alt="Contemporary architectural building"></div><div class="project-meta"><div><h3>Spatial Study</h3><p>Volumetric facade study and material explorations.</p></div><div class="project-type">ARCHITECTURE<br>VISUALIZATION</div></div></article>
+          <article class="project-card"><div class="project-image"><img loading="lazy" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Cafe interior with timber finishes"></div><div class="project-meta"><div><h3>Hospitality Concept</h3><p>Commercial cafe interior with bespoke lighting and finishes.</p></div><div class="project-type">COMMERCIAL<br>INTERIORS</div></div></article>
+          <article class="project-card"><div class="project-image"><img loading="lazy" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80" alt="Modern house interior"></div><div class="project-meta"><div><h3>Modern Living</h3><p>Seamless execution connecting design intent with site delivery.</p></div><div class="project-type">DESIGN<br>DEVELOPMENT</div></div></article>
+        </div>
+        <p style="font-size:.75rem;margin-top:18px;">Curated architectural and interior design case studies.</p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div class="about-image"><img loading="lazy" src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=85" alt="Architectural drawings and design workspace"></div>
+        <div class="about-copy">
+          <div class="eyebrow">About the Studio</div>
+          <h2>Design. Detail.<br>Execution.</h2>
+          <p>Articulate Spaces is an interior design studio founded on bringing together creative space planning, thoughtful detailing, and essential civil engineering practices.</p>
+          <p>With a focus on creating functional yet aesthetically inspiring spaces, the brand blends creativity with technical expertise to deliver designs that are both beautiful and structurally sound—transforming everyday environments into thoughtfully articulated spaces.</p>
+          <div class="about-stat"><div><strong>01</strong><span>Architectural precision</span></div><div><strong>02</strong><span>Holistic space-making</span></div><div><strong>03</strong><span>Practical execution</span></div></div>
+          <p style="margin-top:26px;margin-bottom:0;"><strong style="color:var(--color-primary);font-weight:600;">Kaviyarasu Mathaiyan</strong><br><span style="font-size:.82rem;">Founder & Managing Director · Articulate Spaces</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process">
+      <div class="wrap">
+        <div class="eyebrow">How We Work</div>
+        <h2>From concept<br>to completion.</h2>
+        <p style="max-width:520px;margin-top:18px;">A clear workflow keeps design decisions, costs and execution aligned at every stage.</p>
+        <div class="process-grid">
+          <article class="process-step"><div class="num">01</div><h3>Discovery</h3><p>Brief, requirements and site information.</p></article>
+          <article class="process-step"><div class="num">02</div><h3>Design</h3><p>Concept, space planning and material direction.</p></article>
+          <article class="process-step"><div class="num">03</div><h3>Documentation</h3><p>Drawings, specifications and details.</p></article>
+          <article class="process-step"><div class="num">04</div><h3>BOQ & Costing</h3><p>Estimate, scope review and approval.</p></article>
+          <article class="process-step"><div class="num">05</div><h3>Procurement</h3><p>Material selections and delivery planning.</p></article>
+          <article class="process-step"><div class="num">06</div><h3>Execution</h3><p>Site coordination and quality checks.</p></article>
+          <article class="process-step"><div class="num">07</div><h3>Handover</h3><p>Snagging, walkthrough and closeout.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <div class="eyebrow">Get in Touch</div>
+          <h2>Have a project<br>in mind?</h2>
+          <p style="max-width:420px;margin-top:18px;">Share your idea with us. We'll discuss your requirements, timeline and the best way to move forward.</p>
+          <div class="contact-details">
+            <div><span>PHONE / WHATSAPP</span><a href="https://wa.me/918682909603" target="_blank" rel="noreferrer">+91 86829 09603</a></div>
+            <div><span>EMAIL</span><a href="mailto:hello@articulatespaces.in">hello@articulatespaces.in</a></div>
+            <div><span>LOCATION</span><div>Bengaluru & Coimbatore, India</div></div>
+          </div>
+        </div>
+        <form class="contact-form enquiry-form" data-form-name="contact">
+          <div class="field"><label for="contactName">Full name *</label><input id="contactName" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="contactPhone">Phone / WhatsApp *</label><input id="contactPhone" name="phone" required autocomplete="tel"></div>
+          <div class="field"><label for="contactEmail">Email *</label><input id="contactEmail" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="contactType">Project type *</label><select id="contactType" name="projectType" required><option value="">Choose one</option><option>Residential interior</option><option>Commercial interior</option><option>Architecture / planning</option><option>3D visualization</option><option>Working drawings</option><option>Interior execution</option><option>Other</option></select></div>
+          <div class="field"><label for="contactLocation">Project location</label><input id="contactLocation" name="location" placeholder="City / area"></div>
+          <div class="field"><label for="contactArea">Approximate area</label><input id="contactArea" name="area" placeholder="e.g. 1,200 sq. ft."></div>
+          <div class="field full"><label for="contactMessage">Project details *</label><textarea id="contactMessage" name="message" required placeholder="Tell us about the space, scope, budget and timeline..."></textarea></div>
+          <button class="btn full" type="submit">Submit Enquiry ↗</button>
+          <div class="form-status full" role="alert" aria-live="polite"></div>
+          <p class="form-note full">We respect your privacy. Your details will be used solely to discuss your project.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <a class="brand" href="#home" aria-label="Articulate Spaces – Interior Design Studio">
+          <img class="brand-logo footer-logo" src="assets/logo-full-lockup-sand.png" alt="Articulate Spaces – Interior Design Studio">
+        </a>
+        <div class="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#process">Process</a><a href="#contact">Contact</a></div>
+      </div>
+      <p class="disclaimer">Website copy and images are curated for Articulate Spaces. Confirm all services, project claims, contact details, permissions and legal information before publishing.</p>
+      <div class="footer-bottom"><span>© <span id="year"></span> Articulate Spaces. All rights reserved.</span><span>Interior Design Studio · Architecture · Execution</span></div>
+    </div>
+  </footer>
+
+  <script src="config.local.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

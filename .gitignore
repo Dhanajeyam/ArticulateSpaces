@@ -1,0 +1,35 @@
+# Python
+*.py
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Node (if ever used)
+node_modules/
+
+# ===========================================================
+# SENSITIVE / CONFIDENTIAL — never commit these
+# ===========================================================
+
+# Environment / secrets
+.env
+.env.*
+*.env
+config.local.js
+
+# Client-confidential brand documents
+brand-assets/*.pdf
+brand-assets/*.ai
+brand-assets/*.psd
+*.pdf
+
+# Google Apps Script server-side code (internal / deploy separately)
+google-apps-script.js
+
