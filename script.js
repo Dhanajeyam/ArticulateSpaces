@@ -24,7 +24,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 // setup message prompting configuration.
 //
 // See GOOGLE_SHEETS_SETUP.md for full deployment instructions.
-const GOOGLE_SHEET_SCRIPT_URL = (typeof _SHEET_URL !== "undefined") ? _SHEET_URL : "";
+const GOOGLE_SHEET_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyiKP6K8zGuSrTr4PhGgHE2fRo52qQ82hCh-sfwWY0fv69R4Jic7NP6y7ra-BQAe6Qs/exec";
 
 document.querySelectorAll(".enquiry-form").forEach(form => {
   form.addEventListener("submit", async event => {
